@@ -1,4 +1,4 @@
-class KataSolutions():
+class KataSolutions1():
     
     def simple_addition(x, y):
         return x + y
@@ -16,5 +16,9 @@ class KataSolutions():
             min_quantity = ratio if pre_loop else ratio if ratio < min_quantity else min_quantity
             pre_loop = False
             
-        return min_quantity    
+        return min_quantity   
+    
+    def create_permutations(inputString):
+        length = len(inputString)
+        return [inputString] 
            
